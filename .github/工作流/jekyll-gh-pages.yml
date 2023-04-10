@@ -42,7 +42,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://github.com/2932398894/star-journey.github.io
     runs-on: ubuntu-latest
     needs: build
     steps:
