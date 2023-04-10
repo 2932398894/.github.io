@@ -1,0 +1,65 @@
+.find{
+  font-size: 0.12rem;
+  width: 3.75rem;
+  background-color: #000;
+  color: white;
+  line-height: 1.5;
+  padding-bottom: 0.6rem;
+}
+video{
+  width: 100%;
+}
+.movies{
+  position: relative;
+}
+h2{
+position: absolute;
+top: 0.1rem;
+left: 0.2rem;
+}
+.movie-dsc{
+  background-color: #464545;
+  height: 0.4rem;
+}
+.movie-dsc img{
+  width: 0.2rem;
+  height: 0.16rem;
+  margin-right: 0.05rem;
+}
+.movie-dsc,.peoper,.movie-dsc div{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.peoper img{
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+}
+.footer img{
+  width: 0.17rem;
+  text-align: center;
+}
+.footer{
+  height: 0.6rem;
+  display: flex;
+  background-color: #2c2b2b;
+  justify-content: space-around;
+  position: fixed;
+  width: 3.75rem;
+  align-items: center;
+  bottom: 0;
+}
+.color{
+  color: #f73171 !important;
+}
+.footer a{
+  /* width: 0.24rem; */
+  height: 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}

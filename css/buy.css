@@ -1,0 +1,180 @@
+.buy {
+  font-size: 0.14rem;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  line-height: 1.5;
+  padding-bottom: 0.6rem;
+}
+
+a {
+  color: white;
+}
+
+.head img {
+  height: 0.16rem;
+  margin-right: 0.08rem;
+}
+
+.head a {
+  display: flex;
+  padding: 0.1rem;
+  align-items: center;
+}
+
+.more-time {
+  overflow: auto;
+  /* border-bottom: 1px solid #000; */
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.buy-time {
+  width: 5rem;
+  /* overflow: auto; */
+  display: flex;
+}
+
+.buy-time div {
+  width: 0.8rem;
+  height: 0.3rem;
+  padding: 0.05rem 0;
+  text-align: center;
+  line-height: 0.3rem;
+}
+
+.color {
+  color: #f73171;
+  position: relative;
+}
+
+.color::after {
+  content: "";
+  display: block;
+  height: 0.03rem;
+  width: 0.65rem;
+  background-color: #f73171;
+  position: absolute;
+  bottom: 0px;
+  left: 0.08rem;
+}
+
+.nav img {
+  height: 0.05rem;
+  margin-left: 0.05rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #464545;
+  padding: 0.05rem;
+}
+
+.nav div {
+  display: flex;
+  align-items: center;
+}
+
+.warrper img {
+  width: 100%;
+}
+
+.warrper {
+  margin-top: 0.05rem;
+  position: relative;
+  /* margin-bottom: 0.2rem; */
+}
+
+.warrper-title {
+  position: absolute;
+  top: 0.01rem;
+  left: 0.3rem;
+}
+
+.warrper-title div {
+  width: 0.9rem;
+  height: 0.2rem;
+  line-height: 0.2rem;
+  background-color: #38c566;
+  text-align: center;
+  margin-top: 0.1rem;
+}
+
+.ticket-head ,.distance,.serve{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-ticket{
+  padding: 0.1rem;
+}
+.buy-ticket img{
+  width: 0.11rem;
+  margin-right: 0.05rem;
+}
+.data,.font{
+  color: #b3b3b3;
+  font-size: 0.12rem;
+}
+.distance{
+  margin-top: 0.08rem;
+}
+.distance p{
+  font-size: 0.12rem;
+  margin-left: 0.02rem;
+  border-radius: 0.03rem;
+}
+.bg-yellow{
+  background-color: #fbc216;
+}
+.bg-purple{
+  background-color: #a05bf6;
+}
+.bg-green{
+  background-color: #38c566;
+}
+.bg-blue{
+  background-color: #21c3f8;
+}
+.yellow{
+  color: #eca805;
+}
+.go-buy ,.go{
+  display: flex;
+  /* width: 2.4rem; */
+  justify-content: space-between;
+  align-items: center;
+}
+.go p{
+  font-size: 0.12rem;
+  margin-left: 0.03rem;
+}
+.red{
+  color: #f73171;
+}
+/* .serve {
+  width: 1.7rem;
+} */
+.go-time{
+  display: flex;
+  overflow: auto;
+  padding: 0.1rem 0;
+}
+.go-time div{
+  padding-left: 0.2rem;
+  position: relative;
+  width: 0.9rem;
+  background-color: #464545;
+  height: 0.6rem;
+  border-radius: 0.05rem;
+  margin-right: 0.08rem;
+}
+.font{
+  position: absolute;
+  top: .1rem;
+  left: 0rem;
+  writing-mode: vertical-rl;
+}

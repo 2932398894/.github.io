@@ -1,0 +1,175 @@
+.cinema {
+  font-size: 0.14rem;
+  width: 3.75rem;
+  background-color: #000;
+  color: white;
+  line-height: 1.5;
+  padding-bottom: 0.6rem;
+}
+a{
+  color: white;
+}
+.head {
+  /* width: 3.75rem; */
+  display: flex;
+  padding: 0.1rem 0.15rem;
+  align-items: center;
+  font-size: 0.14rem;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.head img {
+  width: 0.17rem;
+  height: 0.18rem;
+}
+
+.head p img {
+  width: 0.09rem;
+  height: 0.06rem;
+}
+
+.title h5 {
+  font-size: 0.16rem;
+}
+
+.cinema-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #464545;
+  height: 0.3rem;
+  /* letter-spacing: 0.03rem; */
+}
+
+.cinema-top p {
+  display: flex;
+  align-items: center;
+}
+
+.cinema-top img {
+  width: 0.07rem;
+  height: 0.045rem;
+  margin-left: 0.05rem;
+}
+
+.top-img {
+  display: block;
+  width: 3.55rem;
+  height: 0.9rem;
+  margin: 0.1rem auto;
+}
+
+.iteams {
+  width: 3.55rem;
+  background-color: #2c2b2b;
+  border-radius: 0.03rem;
+  margin: 0 auto;
+  margin-bottom: 0.1rem;
+  box-sizing: border-box;
+  padding: 0.1rem;
+}
+
+/* .iteam{
+  margin-bottom: 0.1rem;
+} */
+.iteam-header {
+  width: 3.3rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  /* background-color: #444242; */
+  font-size: 0.14rem;
+  box-sizing: border-box;
+  /* padding: 0.1rem; */
+}
+
+.iteam-header img {
+  width: 0.11rem;
+  margin-right: 0.03rem;
+}
+
+.iteam img {
+  width: 0.11rem;
+}
+
+.place,
+.distance,
+.go-buy,
+.serve {
+  margin-top: 0.05rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.12rem;
+}
+
+.color {
+  color: #b3b3b3;
+  font-size: 0.14rem;
+}
+
+.distance p {
+  font-size: 0.12rem;
+  border-radius: 0.03rem;
+}
+
+.serve {
+  width: 1.7rem;
+}
+
+.bg-yellow {
+  font-size: 0.12rem;
+  background-color: #fbc216;
+}
+
+.bg-purple {
+  font-size: 0.12rem;
+  background-color: #a05bf6;
+}
+
+.bg-green {
+  font-size: 0.12rem;
+  background-color: #38c566;
+}
+
+.bg-blue {
+  font-size: 0.12rem;
+  background-color: #21c3f8;
+}
+
+.buy {
+  display: flex;
+  width: 2.4rem;
+  justify-content: space-between;
+}
+
+.red {
+  color: #f73171 !important;
+}
+
+.footer img {
+  width: 0.17rem;
+  text-align: center;
+}
+
+.footer {
+  height: 0.6rem;
+  display: flex;
+  background-color: #2c2b2b;
+  justify-content: space-around;
+  position: fixed;
+  width: 3.75rem;
+  align-items: center;
+  bottom: 0;
+}
+
+.footer a {
+  /* width: 0.24rem; */
+  height: 0.5rem;
+  display: block;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
